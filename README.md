@@ -29,3 +29,22 @@ This dataset is widely used in both academic research and industry applications 
 
 Dataset link:
 [https://www.kaggle.com/competitions/m5-forecasting-accuracy/data](url)
+
+# Forecasting Models
+
+Three forecasting approaches were implemented in this project.
+
+The first approach was a baseline statistical model using a moving average method. The moving average model calculates the average demand over the previous seven days and uses this value as the forecast for the next observation. This simple model provides a benchmark for evaluating the performance of more advanced forecasting approaches.
+
+The second approach was a machine learning model based on the Random Forest algorithm. Random Forest is an ensemble learning method that combines multiple decision trees to generate predictions. The model is capable of capturing nonlinear relationships and interactions between features, making it well suited for demand forecasting tasks involving complex feature sets.
+
+The third approach was a deep learning model using Long Short-Term Memory networks. LSTM models are designed to capture sequential dependencies in time-series data by maintaining memory of past observations. This architecture enables the model to learn temporal patterns across longer sequences of data.
+
+# Results and Analysis
+
+This project demonstrates the application of machine learning and deep learning models for retail demand forecasting using the M5 dataset. The results show that machine learning models combined with effective feature engineering strategies can achieve strong predictive performance in retail forecasting tasks.
+
+Among the evaluated models, the Random Forest approach achieved the best overall performance, highlighting the effectiveness of ensemble tree-based methods for structured forecasting problems. Although deep learning models such as LSTM networks are capable of modeling sequential dependencies, their performance may depend on larger datasets and more complex model configurations.
+
+The findings emphasize the importance of integrating predictive analytics with supply chain decision-making processes. Improved forecasting accuracy has the potential to support more efficient inventory management strategies, reduce operational costs, and improve product availability in retail environments.
+
